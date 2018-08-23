@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha && eslint .",
+    "test-mochaawesome": "nyc --reporter=html mocha test/*.js --reporter mochawesome --exit",
     "lint": "eslint ."
   },
   "repository": {
